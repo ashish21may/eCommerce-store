@@ -83,7 +83,6 @@ class App extends Component <AppProps, AppState> {
     this.setState({
       products: productDetails
     })
-    console.log('Props in App: ', this.props)
   }
   render(){
     return (
