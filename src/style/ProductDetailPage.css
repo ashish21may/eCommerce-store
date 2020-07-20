@@ -1,0 +1,36 @@
+.product-container {
+  display: flex;
+  padding: 16px;
+  flex-wrap: wrap;
+}
+
+.product-image {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  width: calc(100%- 200px);
+  height: 100%;
+  margin: 10px;
+}
+
+.product-entries {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.product-description {
+  width: 300px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}

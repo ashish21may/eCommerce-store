@@ -1,0 +1,29 @@
+.book {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 300px;
+  margin: 20px;
+  border: 1px solid black;
+}
+
+.book-image{
+  height: 200px;
+  width: 200px;
+}
+
+.book-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+
+.buy-book-button {
+  margin: 10px;
+  width: 150px;
+  height: 32px;
+  cursor: pointer;
+  background-color: lightcoral;
+}
