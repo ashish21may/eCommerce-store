@@ -20,5 +20,16 @@
   width: 300px;
   margin: 10px;
   padding: 10px;
+}
 
+.cart-counter {
+  position: relative;
+  color: white;
+  background: red;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  border-radius: 12px;
+  text-align: center;
+  right: 5px;
 }
